@@ -18,7 +18,7 @@ f.write("wypisujac znak specjalny \\n albo dodajac \\na koncu naszego stringu \n
 
 f.write("\n\n")
 
-f.write("Czy rozumiesz juz jak dziala pisanie do pliku? \n")
+f.write("tak sie pisze do danego pliku\n")
 
 """
 notes :

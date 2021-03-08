@@ -1,5 +1,6 @@
-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # quick program demonstrating how to write into a txt file;
+
 
 # name the file;
 file_name = "moj_pierwszy_plik.txt"
@@ -36,3 +37,4 @@ f.close()			# close the file; this should always be the last line of code after 
 print "\n\n"
 print "Pisanie do pliku zakonczone"
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

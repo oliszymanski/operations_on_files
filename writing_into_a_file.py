@@ -14,16 +14,16 @@ f = open( file_name, 'wb' ) 		# open the file;
 
 # to write into the txt file, use the .write function
 
-f.write("Zapis informacji do pliku \n\n\n")		# "\n" indicates a new line
+f.write(b"Zapis informacji do pliku \n\n\n")		# "\n" indicates a new line
 
 
 
-f.write("po kazdej wyprowadzonym stringu trzeba przejsc do nowej linii \n")		# editing the file
-f.write("wypisujac znak specjalny \\n albo dodajac \\na koncu naszego stringu \n")
+f.write(b"po kazdej wyprowadzonym stringu trzeba przejsc do nowej linii \n")		# editing the file
+f.write(b"wypisujac znak specjalny \\n albo dodajac \\na koncu naszego stringu \n")
 
-f.write("\n\n")
+f.write(b"\n\n")
 
-f.write("Czy rozumiesz juz jak dziala pisanie do pliku? \n")
+f.write(b"Czy rozumiesz juz jak dziala pisanie do pliku? \n")
 
 """
 notes :

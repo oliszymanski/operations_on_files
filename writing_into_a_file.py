@@ -2,17 +2,28 @@
 # quick program demonstrating how to write into a txt file;
 
 
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#	GLOBALS:
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 # name the file;
 file_name = "moj_pierwszy_plik.txt"
 
 f = open( file_name, 'wb' ) 		# open the file;
-										# note : if the file does not exist it will be created automatically;
+									# note : if the file does not exist it will be created automatically;
 
 	
-	# TODO:	add file to this repo path: file_name.txt
-
+# TODO:	add file to this repo path: file_name.txt
 
 # to write into the txt file, use the .write function
+
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#	MAIN:
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 
 f.write(b"Zapis informacji do pliku \n\n\n")		# "\n" indicates a new line
 
@@ -37,9 +48,14 @@ notes :
 
 
 f.close()			# close the file; this should always be the last line of code after writing into a file
-						# if you write any code related to the file after this, it will not be recognised
+					# if you write any code related to the file after this, it will not be recognised
+
 
 print("\n\n")
 print("Pisanie do pliku zakonczone")
 
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#	END OF FILE
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

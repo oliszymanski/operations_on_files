@@ -1,6 +1,4 @@
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# quick program demonstrating how to write into a txt file;
-
+# note:		quick program demonstrating how to write into a txt file;
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -13,7 +11,6 @@ file_name = "moj_pierwszy_plik.txt"
 f = open( file_name, 'wb' ) 		# open the file;
 									# note : if the file does not exist it will be created automatically;
 
-	
 # TODO:	add file to this repo path: file_name.txt
 
 # to write into the txt file, use the .write function
@@ -24,7 +21,7 @@ f = open( file_name, 'wb' ) 		# open the file;
 #	MAIN:
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-
+# note:		notice of how every string is written in byte code..
 f.write(b"Zapis informacji do pliku \n\n\n")		# "\n" indicates a new line
 
 
